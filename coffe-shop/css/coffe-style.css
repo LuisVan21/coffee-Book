@@ -186,3 +186,95 @@ header .text h3 {
     counter-reset: #676767;
     clear: both;
 }
+
+/*-------------- gallery -------------------*/
+
+.main .gallery{
+    overflow: hidden;
+}
+
+.main .gallery .photo{
+    width: 25%;
+    float: left;
+}
+
+.main .gallery .photo img{
+    width: 100%;
+    vertical-align: top;
+    opacity: .7;
+}
+
+.main .gallery .photo img:hover{
+    opacity: 1;
+    transition: all .3s ease;
+}
+
+/*-------------- location -------------------*/
+
+.main .location{
+    background-color: #f2f2f2;
+    padding: 60px 0;
+    overflow: hidden ;
+}
+
+.main .location .title{
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+
+}
+
+.main .location .address{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.main .location .hours{
+    float: right;
+    width: 50%;
+    text-align: right;
+    overflow: hidden;
+}
+
+.main .location .address  .street{
+    margin-bottom: 15px;
+}
+.main .location .address  .phone{
+    margin-bottom: 15px;
+}
+
+.main .location .hours h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main .location .hours .week,
+.main .location .hours .weekend{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+/*----------- Map ------------------*/
+
+.main .map{
+    width: 100%;
+    overflow: hidden;
+}
+
+.main .map iframe{
+    width: 100%;
+    max-height: 600px;
+}
+
+footer{
+    background-color: #000;
+}
+footer .copyright{
+    text-align: center;
+    color: #f2f2f2;
+    padding: 15px 0;
+
+}
