@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Oswald:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/coffe-style.css">
     <title>Coffe shope</title>
 </head>
@@ -19,20 +21,22 @@
                 <a id="btn-Location" href="#">Location</a>
             </nav>
             <div class="text">
-                <h1>Coffe <span>Book & Coffe</span></h1>
+                <h1 class="name">Coffe <span>Book & Coffe</span></h1>
                 <h3>“Lorem ipsum dolor sit amet, consectetur adipiscing elit"</h3>
             </div>
         </div>
     </header>
     <section class="main">
         <sectio class="about" id="about">
-            <div class="photo">
-                <img src="img/acerca-de.jpg" alt="">
+            <div class="container">
+                <div class="photo">
+                    <img  src="img/acerca-de.jpg" alt="">
+                </div>
+                <article >
+                    <h3>bout</h3>
+                    <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer</p>
+                </article>
             </div>
-            <article>
-                <h3>bout</h3>
-                <p>The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer</p>
-            </article>
         </sectio>
         <sectio class="menu" >
             <div class="container">
@@ -89,16 +93,32 @@
                 </div>
             </div>
         </sectio>
-        <sectio class="gallery" id="gallery">
-            <div class="photo">
-                <img src="img/1.jpg" alt="">
-                <img src="img/2.jpg" alt="">
-                <img src="img/3.jpg" alt="">
-                <img src="img/4.jpg" alt="">
-                <img src="img/5.jpg" alt="">
-                <img src="img/6.jpg" alt="">
-                <img src="img/7.jpg" alt="">
-                <img src="img/8.jpg" alt="">
+        <sectio class="gallery " id="gallery">
+            <div class="container">
+                <div class="photo ">
+                    <img src="img/1.jpg" alt="">
+                </div>
+                <div class="photo ">
+                    <img src="img/2.jpg" alt="">
+                </div>
+                <div class="photo ">
+                    <img src="img/3.jpg" alt="">
+                </div>
+                <div class="photo ">
+                    <img src="img/4.jpg" alt="">
+                </div>
+                <div class="photo ">
+                    <img src="img/5.jpg" alt="">
+                </div>
+                <div class="photo ">
+                    <img src="img/6.jpg" alt="">
+                </div>
+                <div class="photo ">
+                    <img src="img/7.jpg" alt="">
+                </div>
+                <div class="photo ">
+                    <img src="img/8.jpg" alt="">
+                </div>
             </div>
         </sectio>
         <sectio class="location" id="location">
@@ -117,7 +137,7 @@
 
             </div>
         </sectio>
-        <section class="map">
+        <section class="map container">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.888879138287!2d-123.12042562323043!3d49.27850277104986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548671651e0dd1fd%3A0xcb5a68a6fc1c681b!2s888%20Homer%20St%2C%20Vancouver%2C%20BC%20V6B%200H7!5e0!3m2!1sen!2sca!4v1705714587645!5m2!1sen!2sca" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </section>
